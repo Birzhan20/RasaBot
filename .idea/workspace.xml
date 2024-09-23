@@ -4,66 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9277c73c-3884-4fb4-a8a5-749854223955" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/RasaBot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/cache.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmp147zt5jb/featurizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmp147zt5jb/rule_only_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmp147zt5jb/rule_policy.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmp4gt205zd/oov_words.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmp4gt205zd/vocabularies.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmp97qtprr6/DIETClassifier.data_example.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmp97qtprr6/DIETClassifier.entity_tag_specs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmp97qtprr6/DIETClassifier.index_label_id_mapping.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmp97qtprr6/DIETClassifier.label_data.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmp97qtprr6/DIETClassifier.sparse_feature_sizes.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmp97qtprr6/DIETClassifier.tf_model.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmp97qtprr6/DIETClassifier.tf_model.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmp97qtprr6/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmp_8uidmmo/feature_to_idx_dict.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmpbsv6xuf3/oov_words.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmpbsv6xuf3/vocabularies.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmpivjb6x8o/featurizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmpivjb6x8o/memorized_turns.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmppgxch5l7/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmppgxch5l7/featurizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmppgxch5l7/ted_policy.data_example.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmppgxch5l7/ted_policy.entity_tag_specs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmppgxch5l7/ted_policy.fake_features.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmppgxch5l7/ted_policy.label_data.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmppgxch5l7/ted_policy.meta.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmppgxch5l7/ted_policy.priority.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmppgxch5l7/ted_policy.tf_model.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmppgxch5l7/ted_policy.tf_model.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmptd5dkrx1/patterns.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmpvek59jxk/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmpvek59jxk/featurizer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmpvek59jxk/unexpected_intent_policy.data_example.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmpvek59jxk/unexpected_intent_policy.entity_tag_specs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmpvek59jxk/unexpected_intent_policy.fake_features.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmpvek59jxk/unexpected_intent_policy.label_data.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmpvek59jxk/unexpected_intent_policy.label_quantiles.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmpvek59jxk/unexpected_intent_policy.meta.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmpvek59jxk/unexpected_intent_policy.priority.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmpvek59jxk/unexpected_intent_policy.tf_model.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.rasa/cache/tmpvek59jxk/unexpected_intent_policy.tf_model.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/actions/actions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credentials.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/nlu.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/rules.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/stories.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/endpoints.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/20240919-150309-modern-static.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_stories.yml" afterDir="false" />
+    <list default="true" id="9df744e4-8938-4735-b80f-b8d01226b4ce" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/RasaBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RasaBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/.rasa/cache/cache.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/actions/actions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/nlu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/nlu.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/rules.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/rules.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/stories.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/stories.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/domain.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/endpoints.yml" beforeDir="false" afterPath="$PROJECT_DIR$/endpoints.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_stories.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_stories.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,45 +27,49 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
-  <component name="ProjectId" id="2mHhgzFiLlb93If6g7LYTAuZzQF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2mPdaJqQTIlmZMhEoh3XA6ZKwjb" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Almaty_MiniMU_4/PycharmProjects/RasaBot",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
-        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9277c73c-3884-4fb4-a8a5-749854223955" name="Changes" comment="" />
-      <created>1726739523850</created>
+      <changelist id="9df744e4-8938-4735-b80f-b8d01226b4ce" name="Changes" comment="" />
+      <created>1726982206933</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1726739523850</updated>
-      <workItem from="1726739533048" duration="9691000" />
+      <updated>1726982206933</updated>
+      <workItem from="1726982207795" duration="3209000" />
+      <workItem from="1726995132825" duration="21162000" />
+      <workItem from="1727031103015" duration="3702000" />
+      <workItem from="1727060557798" duration="4412000" />
+      <workItem from="1727072758516" duration="7295000" />
+      <workItem from="1727083691424" duration="8000" />
     </task>
     <servers />
   </component>

@@ -1,30 +1,20 @@
 version: "3.1"
 
 stories:
-
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - story: ИИН проверка
+    steps:
+      - intent: greet
+      - action: utter_ask_iin
+      - intent: check_iin
+      - action: action_check_iin
+      - action: action_repeat_iin
+      - intent: confirm_iin
+      - action: action_verify_iin
+      - action: action_repeat_first_six_digits
+      - intent: repeat_first_six_digits
+      - action: action_verify_first_six_digits
+      - action: action_repeat_last_six_digits
+      - intent: repeat_last_six_digits
+      - action: action_verify_last_six_digits
+      - intent: request_transfer
+      - action: utter_transfer_to_operator

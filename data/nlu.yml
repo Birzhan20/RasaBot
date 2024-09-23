@@ -1,89 +1,47 @@
 version: "3.1"
 
 nlu:
-- intent: greet
-  examples: |
-    - ало
-    - да
-    - здравствуйте
-    - меня слышно?
-    - добрый день
-    - ассалаумагалейкум
-    - саламатсыз ба
-    - салем
-    - кым екен
-    - естылып тур ма
-    - салеметсыз бе 
-    - кайырлы кун
-    - армысыз
+  - intent: greet
+    examples: |
+      - привет
+      - добрый день
+      - добрый вечер
+      - hi
 
-- intent: goodbye
-  examples: |
-    - саубол
-    - сауболыныз
-    - жарайд
-    - аха
-    - до свидания
-    - давай
-    - всего доброго
-    - до встречи
+  - intent: check_iin
+    examples: |
+      - 000000000000
+      - Я ввел ИИН [123456789012](iin)
+      - ИИН [123456789012](iin)
+      - 123123123123(iin)
+      - 123123123123
 
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+  - intent: confirm_iin
+    examples: |
+      - Да
+      - да
+      - верно
+      - Правильно
+      - Это правильно
 
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+  - intent: repeat_first_six_digits
+    examples: |
+      - 123123
+      - Первая половина ИИН 123123
+      - Первые шесть цифр 123123
+      - 123123
+      - 000000
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+  - intent: repeat_last_six_digits
+    examples: |
+      - Вторая половина 123123
+      - Последние шесть цифр ИИН 000000
+      - 123123
+      - 000000
 
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+  - intent: request_transfer
+    examples: |
+      - Переведите меня к оператору
+      - Я хочу поговорить с оператором
+      - Переведите меня к специалисту
+      - оператор

@@ -1,13 +1,18 @@
-version: "3.1"
-
-rules:
-
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
-
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+#version: "3.1"
+#
+#rules:
+#  - rule: ИИН проверка
+#    steps:
+#      - intent: greet
+#      - action: utter_ask_iin
+#      - intent: check_iin
+#      - action: action_check_iin
+#      - action: action_repeat_iin
+#      - intent: confirm_iin
+#      - action: action_verify_iin
+#      - action: action_repeat_first_six_digits
+#      - intent: repeat_first_six_digits
+#      - action: action_verify_first_six_digits
+#      - action: action_repeat_last_six_digits
+#      - intent: repeat_last_six_digits
+#      - action: action_verify_last_six_digits

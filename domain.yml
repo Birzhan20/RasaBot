@@ -1,38 +1,49 @@
 version: "3.1"
 
-
-
 intents:
   - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - check_iin
+  - confirm_iin
+  - repeat_first_six_digits
+  - repeat_last_six_digits
+  - request_transfer
+
+actions:
+  - action_check_iin
+  - action_repeat_iin
+  - action_verify_iin
+  - action_repeat_first_six_digits
+  - action_verify_first_six_digits
+  - action_repeat_last_six_digits
+  - action_verify_last_six_digits
+  - action_transfer_to_operator
+
+slots:
+  iin:
+    type: text
+    mappings:
+      - type: from_text
+  first_attempts:
+    type: float  # Изменено на float
+    initial_value: 0.0
+    mappings:
+      - type: from_intent
+        intent: check_iin
+        value: 0.0
+  last_attempts:
+    type: float  # Изменено на float
+    initial_value: 0.0
+    mappings:
+      - type: from_intent
+        intent: check_iin
+        value: 0.0
 
 responses:
-  utter_greet:
-  - text: "Кайырлы кун, добрый день! Меня зовут Асель, вы позвонили в компанию CyberNet. 
-  Сыз Кибернет компаниясына конырау шалдыныз. Продолжить разговор на русском немесе 
-  казак тылынде жалгастырайын ба?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  utter_ask_iin:
+    - text: "Пожалуйста, введите ваш ИИН."
+  utter_invalid_iin:
+    - text: "ИИН неверный. Пожалуйста, попробуйте снова."
+  utter_thank_you:
+    - text: "Спасибо! Разговор завершен."
+  utter_transfer_to_operator:
+    - text: "Перевожу вас к оператору. Пожалуйста, подождите..."
